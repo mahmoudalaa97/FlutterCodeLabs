@@ -14,7 +14,7 @@ Code First Flutter App, part 1 & part 2:
 
 ##Part1
 
-<p align="center"><img src="img/part1.gif"width="800%"></p>
+<p align="center"><img src="img/part1.gif" width="350"></p>
 
 ### Getting Started
 1. Setup Flutter ( [check here ](https://flutter.io/get-started/install/))
