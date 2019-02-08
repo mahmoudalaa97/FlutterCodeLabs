@@ -6,7 +6,7 @@
 
 ### Description
 
-Code First Flutter App, part 1 & part 2:
+Code First Flutter App, [part 1](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1/index.html?index=..%2F..index#0) & [part 2 ](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/#0):
 - [ListView](https://docs.flutter.io/flutter/widgets/ListView-class.html)
 - [ListTile](https://docs.flutter.io/flutter/material/ListTile-class.html)
 - [Scaffold](https://docs.flutter.io/flutter/material/Scaffold-class.html)
@@ -29,7 +29,7 @@ For help getting started with Flutter, you can check those resources
 
 - [Start Flutter](https://startflutter.com/).
 
-- [Flutter at Gitter](https://gitter.im/flutter/flutter).
+- [Flutter at Getter](https://gitter.im/flutter/flutter).
 
 - [Flutter packages](https://pub.dartlang.org/flutter).
 
