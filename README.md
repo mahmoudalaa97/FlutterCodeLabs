@@ -12,7 +12,7 @@ Code First Flutter App, part 1 & part 2:
 - [Scaffold](https://docs.flutter.io/flutter/material/Scaffold-class.html)
 - [Icon](https://docs.flutter.io/flutter/material/Icons-class.html)
 
-##Part1
+## First Flutter App, part 1
 
 <p align="center"><img src="img/part1.gif" width="350"></p>
 
