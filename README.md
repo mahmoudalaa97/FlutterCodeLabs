@@ -1,16 +1,35 @@
-# totevent
+# TOT Event
 
-A new Flutter project.
+## Flutter Study Jam - Code Lab
 
-## Getting Started
+<p align="center"><img src="img/Flutter.jpeg"width="800%"></p>
 
-This project is a starting point for a Flutter application.
+### Description
 
-A few resources to get you started if this is your first Flutter project:
+Code First Flutter App, part 1 & part 2:
+- [ListView](https://docs.flutter.io/flutter/widgets/ListView-class.html)
+- [ListTile](https://docs.flutter.io/flutter/material/ListTile-class.html)
+- [Scaffold](https://docs.flutter.io/flutter/material/Scaffold-class.html)
+- [Icon](https://docs.flutter.io/flutter/material/Icons-class.html)
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+
+### Getting Started
+1. Setup Flutter ( [check here ](https://flutter.io/get-started/install/))
+
+2. Download this source code.
+
+3. Enjoy !!
+
+### Resources
+For help getting started with Flutter, you can check those resources
+- [Official documentation](https://flutter.io/).
+
+- [Start Flutter](https://startflutter.com/).
+
+- [Flutter at Gitter](https://gitter.im/flutter/flutter).
+
+- [Flutter packages](https://pub.dartlang.org/flutter).
+
+- [Awesome Flutter github repo](https://github.com/Solido/awesome-flutter).
+
