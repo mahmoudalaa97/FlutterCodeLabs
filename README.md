@@ -12,9 +12,9 @@ Code First Flutter App, [part 1](https://codelabs.developers.google.com/codelabs
 - [Scaffold](https://docs.flutter.io/flutter/material/Scaffold-class.html)
 - [Icon](https://docs.flutter.io/flutter/material/Icons-class.html)
 
-## First Flutter App, part 1
+## First Flutter App, part 1 and part 2
 
-<p align="center"><img src="img/part1.gif" width="350"></p>
+<p align="center"><img src="img/img.gif" width="350"></p>
 
 ### Getting Started
 1. Setup Flutter ( [check here ](https://flutter.io/get-started/install/))

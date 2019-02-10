@@ -8,7 +8,9 @@ class Home extends StatelessWidget {
     return RandomWord();
   }
 }
-
+final List<WordPair> _suggestions = <WordPair>[];
+final Set<WordPair> _saved = new Set<WordPair>();
+final TextStyle _biggerFont = const TextStyle(fontSize: 18.0);
 class RandomWord extends StatefulWidget {
   @override
   _RandomWordState createState() => _RandomWordState();
@@ -19,12 +21,47 @@ class _RandomWordState extends State<RandomWord> {
   Widget build(BuildContext context) {
     return new Scaffold(
         appBar: new AppBar(
-          title: new Text('Welcome to TOT Event'),
+          title: new Text('Welcome to Study Jam'),
+          actions: <Widget>[      // Add 3 lines from here...
+            new IconButton(icon: const Icon(Icons.list), onPressed: pushSaved ),
+          ],
         ),
         body: Container(
           child: ListWord(),
         ));
   }
+  void pushSaved() {
+    Navigator.of(context).push(
+      new MaterialPageRoute<void>(   // Add 20 lines from here...
+        builder: (BuildContext context) {
+          final Iterable<ListTile> tiles = _saved.map(
+                (WordPair pair) {
+              return new ListTile(
+                title: new Text(
+                  pair.asPascalCase,
+                  style: TextStyle(fontSize: 18),
+                ),
+              );
+            },
+          );
+          final List<Widget> divided = ListTile
+              .divideTiles(
+            context: context,
+            tiles: tiles,
+          )
+              .toList();
+          return new Scaffold(         // Add 6 lines from here...
+            appBar: new AppBar(
+              title: const Text('Saved Suggestions'),
+            ),
+            body: new ListView(children: divided),
+          );
+        },
+      ),
+      // ... to here.
+    );
+  }
+
 }
 
 class ListWord extends StatefulWidget {
@@ -33,9 +70,7 @@ class ListWord extends StatefulWidget {
 }
 
 class _ListWordState extends State<ListWord> {
-  final List<WordPair> _suggestions = <WordPair>[];
-  final Set<WordPair> _saved = new Set<WordPair>();
-  final TextStyle _biggerFont = const TextStyle(fontSize: 18.0);
+
 
   @override
   Widget build(BuildContext context) {
